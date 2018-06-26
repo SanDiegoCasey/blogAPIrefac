@@ -1,0 +1,22 @@
+{
+  "name": "blogapi",
+  "version": "1.0.0",
+  "description": "blog API tutorial",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanDiegoCasey/blogAPI.git"
+  },
+  "author": "Casey Whitcher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanDiegoCasey/blogAPI/issues"
+  },
+  "homepage": "https://github.com/SanDiegoCasey/blogAPI#readme",
+  "dependencies": {
+    "uuid": "^3.3.0"
+  }
+}
