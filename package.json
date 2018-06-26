@@ -1,22 +1,19 @@
 {
-  "name": "blogapi",
-  "version": "1.0.0",
-  "description": "blog API tutorial",
+  "name": "blog-app-challenge-starter-files",
+  "version": "0.0.1",
+  "description": "Shopping list app to demo 'the modern classic'",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SanDiegoCasey/blogAPI.git"
-  },
-  "author": "Casey Whitcher",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SanDiegoCasey/blogAPI/issues"
-  },
-  "homepage": "https://github.com/SanDiegoCasey/blogAPI#readme",
   "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
     "uuid": "^3.3.0"
-  }
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT"
 }
